@@ -1,0 +1,9 @@
+ app:
+   rollbar_config:
+     access_token: "7dea12a58a414d7ab69401ea2c280ae9"
+     environment: "local"
+
+   swagger_config:
+     title: "Rollbar Apis to push data to rollbar console"
+     description: "Roll bar test api to push error log to external rollbar service, and check error on rollbar console"
+     version: version 1

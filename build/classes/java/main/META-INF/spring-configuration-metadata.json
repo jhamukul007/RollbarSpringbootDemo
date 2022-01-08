@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.rollbar.rollbardemo.configs.properties.AppProperties",
+      "sourceType": "com.rollbar.rollbardemo.configs.properties.AppProperties"
+    },
+    {
+      "name": "app.rollbar-config",
+      "type": "com.rollbar.rollbardemo.configs.properties.AppProperties$RollbarConfig",
+      "sourceType": "com.rollbar.rollbardemo.configs.properties.AppProperties",
+      "sourceMethod": "getRollbarConfig()"
+    },
+    {
+      "name": "app.swagger-config",
+      "type": "com.rollbar.rollbardemo.configs.properties.AppProperties$SwaggerConfig",
+      "sourceType": "com.rollbar.rollbardemo.configs.properties.AppProperties",
+      "sourceMethod": "getSwaggerConfig()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.rollbar-config.access-token",
+      "type": "java.lang.String",
+      "sourceType": "com.rollbar.rollbardemo.configs.properties.AppProperties$RollbarConfig"
+    },
+    {
+      "name": "app.rollbar-config.environment",
+      "type": "java.lang.String",
+      "sourceType": "com.rollbar.rollbardemo.configs.properties.AppProperties$RollbarConfig"
+    },
+    {
+      "name": "app.swagger-config.description",
+      "type": "java.lang.String",
+      "sourceType": "com.rollbar.rollbardemo.configs.properties.AppProperties$SwaggerConfig"
+    },
+    {
+      "name": "app.swagger-config.title",
+      "type": "java.lang.String",
+      "sourceType": "com.rollbar.rollbardemo.configs.properties.AppProperties$SwaggerConfig"
+    },
+    {
+      "name": "app.swagger-config.version",
+      "type": "java.lang.String",
+      "sourceType": "com.rollbar.rollbardemo.configs.properties.AppProperties$SwaggerConfig"
+    }
+  ],
+  "hints": []
+}
